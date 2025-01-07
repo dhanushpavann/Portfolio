@@ -8,7 +8,7 @@ const profile = {
 
 const social = [
 	{ icon: icon.SiGithub, link: 'https://github.com/dhanushpavann' },
-	{ icon: icon.SiLinkedin, link: 'https:/linkedin.com/in/dhanush-pavan' },
+	{ icon: icon.SiLinkedin, link: 'https:/linkedin.com/in/dhanush-pavan/' },
 	{ icon: icon.SiLeetcode, link: 'https://leetcode.com/u/dhanush4532/' },
 	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
