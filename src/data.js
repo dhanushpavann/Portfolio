@@ -3,13 +3,13 @@ import * as icon from 'react-icons/si'
 const profile = {
 	name: 'Dhanush Pavan',
 	role: 'Machine Learning Engineer',
-	description: "I’m Dhanush Pavan, a B.Tech student skilled in Python, Java, DBMS,and web development .Passionate about coding, I create efficient,user- friendly applications.With strong collaborative problem-solving abilities, I aim to leverage AI and ML to address real - world challenges.",
+	description: "I’m Dhanush Pavan, a B.Tech student specializing in Artificial Intelligence and Machine Learning. Skilled in Python, Java, and Go, I focus on developing  AI models, websites ,optimizing algorithms, and applying ML/DL techniques to solve real-world problems. Passionate about leveraging data-driven solutions to create scalable and efficient systems.",
 };
 
 const social = [
 	{ icon: icon.SiGithub, link: 'https://github.com/dhanushpavann' },
 	{ icon: icon.SiLinkedin, link: 'https:/linkedin.com/in/dhanush-pavan' },
-	{ icon: icon.SiTwitter, link: 'https://www.twitter.com/' },
+	{ icon: icon.SiLeetcode, link: 'https://leetcode.com/u/dhanush4532/' },
 	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
@@ -111,6 +111,17 @@ const stack = [
 		name: 'Libraries and Framework',
 		items: [
 			{ icon: icon.SiTensorflow, name: 'TensorFlow' },
+			{ icon: icon.SiScikitlearn, name: 'Scikitlearn' },
+			{ icon: icon.SiKeras, name: 'Keras', },
+			{ icon: icon.SiOpencv, name: 'Opencv', },
+			{ icon: icon.SiDocker, name: 'Docker', },
+
+		],
+	},
+	{
+		name: 'Other Skills',
+		items: [
+			{ icon: icon.SiAutodesk, name: 'AutoCad' },
 			{ icon: icon.SiScikitlearn, name: 'Scikitlearn' },
 			{ icon: icon.SiKeras, name: 'Keras', },
 			{ icon: icon.SiOpencv, name: 'Opencv', },

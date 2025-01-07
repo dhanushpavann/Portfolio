@@ -4,11 +4,13 @@
 # Dhanush Pavan
 This is a Minimal Portfolio  built with React and Vite, easy to use 
 
-<img src="src/images/lighttheme.png" alt="Home UI">
-<img src="src/images/darktheme.png" alt="Home UI">
-<img src="src/images/projects.png" alt="Home UI">
-<img src="src/images/skills.png" alt="Home UI">
-<img src="src/images/contact.png" alt="Home UI">
+
+<img src="src/images/lighttheme.png" alt="Light Theme Home UI">
+<img src="src/images/darktheme.png" alt="Dark Theme Home UI">
+<img src="src/images/projects.png" alt="Projects UI">
+<img src="src/images/skills.png" alt="Skills UI">
+<img src="src/images/contact.png" alt="Contact UI">
+
 
 [Live Preview](https://dhanushpavann.netlify.app/)
 
