@@ -3,6 +3,8 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	padding: 1.5rem;
+	/* ensure overflowing text doesn't visually overlap outside the card */
+	overflow: hidden;
 	width: clamp(320px, 100%, 400px);
 	aspect-ratio: 1 / 1;
 	border: 5px solid var(--accent);
@@ -11,6 +13,24 @@
 
 .Card-h3{
 	margin-bottom: var(--margin-4);
+	/* prevent long titles from overlapping/overflowing the fixed card */
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	text-wrap: balance;
+	line-height: 1.2;
+}
+
+
+.Card-description{
+	/* keep description from pushing links out of the fixed square */
+	margin-bottom: var(--margin-3);
+	line-height: 1.3;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	font-size: 1rem;
+	/* constrain height so .Card-links stay visible */
+	max-height: 7.5rem;
+	overflow: hidden;
 }
 
 .Card-tech{
@@ -67,7 +87,10 @@
 	.Card{
 		padding: 3rem;
 	}
+	/* keep a readable line-height so wrapping doesn't cause visual overlap */
 	.Card-h3{
-		line-height: 0;
+		line-height: 1.2;
 	}
 }
+
+

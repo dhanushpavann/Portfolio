@@ -3,7 +3,7 @@ import * as icon from 'react-icons/si'
 const profile = {
 	name: 'Dhanush Pavan',
 	role: 'Machine Learning Engineer',
-	description: "I’m Dhanush Pavan, a B.Tech student specializing in Artificial Intelligence and Machine Learning. Skilled in Python, Java, and Go, I focus on developing  AI models, websites ,optimizing algorithms, and applying ML/DL techniques to solve real-world problems. Passionate about leveraging data-driven solutions to create scalable and efficient systems.",
+	description: "I’m Dhanush Pavan, a B.Tech student specializing in Artificial Intelligence and Machine Learning. As an aspiring Full-Stack ML Engineer, I focus on bridging the gap between software engineering and production-grade Machine Learning. I am passionate about ML infrastructure, DevOps automation, and scalable web development, dedicated to optimizing algorithms and streamlining model productionalization from code to cloud.",
 };
 
 const social = [
@@ -18,28 +18,27 @@ const brand = 'DP'
 
 const projects = [
 	{
-		name: 'Sort Stack',
-		description: `Sort Stack is an interactive selection-sorting game where users manually sort
-		bars by dragging, offering a fun and engaging way to understandthe algorithm.`,
+		name: 'AI LAD',
+		description: `AI LAD is a lightweight log monitoring application that detects anomalies in real time using machine learning, offering an efficient and LLM-assisted way to instantly catch and summarize hidden system threats.`,
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
 			{ icon: icon.SiPython, name: 'Python' },
+			{ icon: icon.SiDocker, name: 'Docker' },
+			{ icon: icon.SiGoogle, name: 'CSS' },
 		],
 		linkProject: 'https://example.com',
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'ODLRS',
-		description: `The Online Diagnostic Lab Reporting System includes an AI-powered chatbot
-					that simplifies patient interactions, such as report inquiries and appointment
-					scheduling. I`,
+		name: 'Automated Vehicle Insurance Pipeline',
+		description: `This project is an end-to-end MLOps application that automates machine learning workflows using MongoDB and AWS, offering a production-ready and containerized way to instantly validate, train, and deploy predictive models via automated CI/CD.`,
 		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiPython, name: 'Python' },
+			{ icon: icon.SiMongodb, name: 'MongoDB' },
+			{ icon: icon.SiAmazonaws, name: 'AWS' },
+			{ icon: icon.SiDocker, name: 'Docker' },
+			{ icon: icon.SiGithubactions, name: 'GitHub Actions' },
+			{ icon: icon.SiHtml5, name: 'HTML5' },
+			{ icon: icon.SiCss3, name: 'CSS3' }
 		],
 		linkProject: 'https://example.com',
 		linkGithub: 'https://github.com',
